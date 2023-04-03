@@ -1,0 +1,6 @@
+node_modules
+.wwebjs_auth
+files/images/*.jpg
+files/images/*.jpeg
+files/images/*.png
+files/images/*.gif

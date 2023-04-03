@@ -1,0 +1,32 @@
+{
+  "name": "wa-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.5"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "space-before-function-paren": "off"
+    }
+  }
+}
